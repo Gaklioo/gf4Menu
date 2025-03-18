@@ -1,6 +1,6 @@
 # gf4Menu
 a custom F4 menu for garrys mod, currently a work in progress.
-
+```
 To Add New Jobs:
 Go to sh_gmenuconfig.lua
 ["Category"] = {
@@ -22,3 +22,4 @@ gMenu.Entities = {
       price = X
   },
 }
+```
