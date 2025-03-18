@@ -1,0 +1,1 @@
+resource.AddFile("gf4menu/images/images.jpg")
