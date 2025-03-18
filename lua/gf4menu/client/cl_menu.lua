@@ -6,7 +6,7 @@ gMenu.CoolDown = 5
 hook.Add("Think", "openf4Menu", function()
     if input.IsKeyDown(KEY_F4) then
         print("OK")
-        if not gMenu.isOpen and CurTime() > gMenu.NextOpen then
+        if not gMenu.isOpen and CurTime() > gMenu.NextOpen then -- Creates nil error as of now but will fix, solves itself if you save while player in game
             gMenu.NextOpen = CurTime() + gMenu.CoolDown
             gMenu.isOpen = true
             gMenu.Open()
